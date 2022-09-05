@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* general styling */
+
+
+/* Header | Navbar styling */
+.navbar{
+    background: url(images/bg-texture.jpg) repeat;
+    color: white;
+    display: flex;
+    padding: 25px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 25px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+}
+
+
+.slogan{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+.slogan p{
+    width: max-content;
+}
+
+.icon-nav{
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+}
+.icon-nav li{
+    list-style: none;
+}
+.icon-nav li a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+/* Section2 */
+
+.section2{
+    background: url(images/bg-hero.jpg);
+}
