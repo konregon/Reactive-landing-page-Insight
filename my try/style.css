@@ -51,6 +51,7 @@
     background: url(images/bg-hero.jpg);
     display: flex;
     flex-direction: column;
+    height: 465px;
 }
 
 .sec2-row1 {
@@ -116,4 +117,24 @@
     border-radius: 5px;
     box-shadow: blue 0px 20px 30px -10px;
     border: none;
+}
+
+/* Section 3 | photo gallery with info*/
+
+.section3 {
+    height: 740px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec3-row1{
+    background: red;
+}
+.sec3-row2{
+    background: pink;
+}
+.sec3-row3{
+    background: yellow;
 }
