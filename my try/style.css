@@ -138,3 +138,47 @@
 .sec3-row3{
     background: yellow;
 }
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blocks .block {
+    width: 351px;
+    margin-left: 43px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid var(--gray-100);
+}
+.blocks .block:first-child {
+    margin-left: 0;
+}
+
+.blocks img {
+    vertical-align: top;
+}
+.blocks .image {
+    margin-bottom: 13px;
+}
+
+.blocks .person {
+    display: flex;
+}
+
+.blocks .photo {
+    width: 50px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.blocks .phrase {
+    margin: 0 0 2px;
+    font-weight: 600;
+}
+
+.blocks .info {
+    color: var(--gray-200);
+    font-size: 14px;    margin: 0;
+}
