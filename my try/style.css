@@ -205,3 +205,49 @@
     left: 6px;
     right: 6px;    opacity: .5;
 }
+
+.news {
+    border-top: 2px solid var(--gray-100);
+    border-bottom: 2px solid var(--gray-100);
+    padding: 31px 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .one {
+    display: flex;
+    width: 352px;
+    margin-left: 42px;
+}
+
+.news .one:first-child {
+    margin-left: 0;
+}
+
+.news .img {
+    width: 89px;
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.news .text {
+    padding-top: 4px;
+}
+
+.news img {
+    border-radius: 50%;
+}
+
+.news time {
+    font-size: 14px;
+    color: var(--gray-200);
+}
+
+.news p {
+    margin: 4px 0 0;
+}
+
+.news p a {
+    color: var(--base-text-color);
+}
