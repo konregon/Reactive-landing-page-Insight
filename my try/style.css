@@ -317,3 +317,8 @@
     color: var(--gray-200);
     margin-left: 8px;
 }
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
