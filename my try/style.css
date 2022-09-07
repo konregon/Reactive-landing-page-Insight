@@ -182,3 +182,26 @@
     color: var(--gray-200);
     font-size: 14px;    margin: 0;
 }
+
+.blocks .block {
+    position: relative;
+}
+.blocks .block::after,
+.blocks .block::before {
+    content: '';
+    height: 3px;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid var(--gray-100);
+    border-top: 0;
+    position: absolute;
+}
+.blocks .block::after {
+    bottom: -4px;
+    left: 3px;
+    right: 3px;    opacity: .8;
+}
+.blocks .block::before {
+    bottom: -7px;
+    left: 6px;
+    right: 6px;    opacity: .5;
+}
